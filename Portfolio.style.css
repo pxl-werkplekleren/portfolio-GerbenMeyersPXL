@@ -1,0 +1,255 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: #113983;
+}
+
+.navbar-container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+text-decoration: none;
+color: Black;
+padding: 14px 16px;
+}
+
+    #Content, main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-nav{
+        background: #0d8a9c;
+    }
+
+    .page-nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        margin-top: 0.7rem;
+    }
+
+    .page-nav ul li a{
+        display: block;
+        color: white;
+        padding: 1.4rem 3rem;
+        text-decoration: none;
+    }
+
+    .page-nav ul li a:hover{
+        color: black;
+        text-decoration: underline;
+        padding: 1.4rem 3rem;
+    }
+
+    #homepage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*margin-right: 10vw;*/
+        margin-top: 2rem;
+    }
+
+    #homepage h1{
+        font-size: 4rem;
+    }
+
+    #homepage h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #About_me{
+        width: 70%;
+        margin: 0 auto;
+        padding: 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background: #a2a5a5;
+        border-radius: 10px;
+    }
+
+    section{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    #meenemen_wpl p{
+        background: #a2a5a5;
+        padding: 1.5rem;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+
+    .Waarom{
+        background: #a2a5a5;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 15px;
+        margin: 1rem auto;
+        width: 60%
+    }
+
+.Waarom p{
+    margin-top: 0.5rem;
+}
+
+.Waarom h4{
+    margin-top: 1rem;
+}
+#Situering h2{
+    margin-top: 2rem;
+}
+
+#Situering ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+#Situering ul li{
+    background: #a2a5a5;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 20%
+}
+
+#activiteiten{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#activiteiten ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+#activiteiten ul li{
+    background: #a2a5a5;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 20%
+}
+
+    table {
+        -webkit-text-size-adjust: 100%;
+        font-size: 100%;
+        color: rgba(0, 0, 0, .8);
+        line-height: 1;
+        cursor: auto;
+        tab-size: 4;
+        -webkit-font-smoothing: antialiased;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        border-collapse: collapse;
+        border-spacing: 0;
+        background: #fff;
+        word-wrap: normal;
+        width: 80%;
+        margin: 1.5Rem auto;
+        border: 1px solid darkseagreen;
+        border-width: 1px;
+    }
+
+    thead {
+        background: rgba(228, 228, 228, 0.55);
+    }
+
+    td {
+        border: 1px solid darkseagreen;
+        padding: 0.5rem;
+    }
+
+    td ul{
+        list-style: none;
+    }
+
+    #verdeling°activiteiten{
+        border: none;
+    }
+
+    #verdeling°activiteiten thead{
+        border: none;
+        background: white;
+    }
+
+    #verdeling°activiteiten td{
+        border: 2px solid darkseagreen;
+    }
+
+    #verdeling°activiteiten td li{
+        margin: 0.5rem;
+    }
+
+    article{
+        background: #a2a5a5;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 15px;
+        margin: 1rem auto;
+        width: 60%
+    }
+
+    article p{
+        margin-top: 0.5rem;
+    }
+
+    footer{
+        background: #113983;
+        color: white;
+    }
+
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        height: 4rem;
+    }
+
+    footer p{
+        font-weight: bold;
+        margin: 5px 20px;
+    }
+
+    footer a{
+        height: 4rem;
+        margin: 5px 20px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+    footer a:hover{
+        text-decoration: underline;
+        height: 4rem;
+    }
+
